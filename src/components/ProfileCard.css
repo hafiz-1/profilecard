@@ -141,9 +141,9 @@
 
 }
 
-.like-btn:hover{
+.like-btn:active{
 
-    background:#d1d5db;
+    transform:scale(.95);
 
 }
 

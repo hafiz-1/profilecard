@@ -61,7 +61,7 @@ function ProfileCard(props) {
 
                 <p>
 
-                    Followers :
+                    👥 Followers :
                     <span>{followers}</span>
 
                 </p>
