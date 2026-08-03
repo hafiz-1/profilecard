@@ -1,0 +1,163 @@
+.card{
+
+    width:350px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:16px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.profile-image{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin-bottom:20px;
+
+}
+
+.name{
+
+    font-size:2rem;
+
+    margin-bottom:8px;
+
+    color:#111827;
+
+}
+
+.role{
+
+    color:#2563eb;
+
+    font-size:1.1rem;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+.bio{
+
+    color:#6b7280;
+
+    line-height:1.6;
+
+    margin-bottom:25px;
+
+}
+
+.stats{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:25px;
+
+    font-weight:600;
+
+}
+
+.stats span{
+
+    margin-left:5px;
+
+    color:#111827;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.buttons button{
+
+    flex:1;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+}
+
+.follow-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+.follow-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.like-btn{
+
+    background:#e5e7eb;
+
+    color:#111827;
+
+}
+
+.like-btn:hover{
+
+    background:#d1d5db;
+
+}
+
+@media (max-width:600px){
+
+    .card{
+
+        width:90%;
+
+        padding:20px;
+
+    }
+
+    .stats{
+
+        flex-direction:column;
+
+        gap:12px;
+
+    }
+
+    .buttons{
+
+        flex-direction:column;
+
+    }
+
+}
