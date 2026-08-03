@@ -78,7 +78,7 @@ function ProfileCard(props) {
             <div className="buttons">
 
                 <button
-                    className="follow-btn"
+                    className={following ? "follow-btn following" : "follow-btn"}
                     onClick={handleFollow}
                 >
 
