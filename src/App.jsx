@@ -11,7 +11,7 @@ function App() {
                 name="Umair Arshad"
                 role="Frontend Developer"
                 bio="Passionate about React, JavaScript and MERN Stack."
-                followers={120}
+                followers={100}
                 image="https://picsum.photos/200"
             />
 
